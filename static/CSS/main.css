@@ -1,0 +1,32 @@
+.center{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+table, th, td{
+    border: 1px solid #aaa;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+    height: 30px;
+}
+
+td{
+    text-align: center;
+    padding: 5px;
+}
+
+#content{
+    width: 50%
+}
+
+form{
+    margin-top: 20px;
+    width: 100%;
+}

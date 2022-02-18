@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <!-- A base template used for template inheritance, a feature of Jinja
+         template engine -->
+    <head>
+        <meta chatset="UTF-8">
+        <!-- To link the css file -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='CSS/main.css') }}">
+        {% block head %} {% endblock %}
+    </head>
+
+    <body>
+        {% block body %} {% endblock %}
+    </body>
+</html>
